@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# 说明
+# 复制为自用
 
 重磅发布：墨奇音形，支持自然码、小鹤、搜狗、微软双拼。墨奇音形是一个基于字形描述信息、递归拆分，最后取首末双形音托的码表开源的方案。详见[墨奇码拆分规则](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99)。[墨奇码](https://github.com/gaboolic/moqima-tables)的拆分码表已开源，目前已经拆分完成全部的通用规范汉字、常用繁体字，总计支持4万字（方案选单中支持大字集和小字集切换）。未来准备支持gb18030-2022标准的8万字。墨奇音形的方案支持ctrl+p开关显示墨奇辅助码+首末字形，ctrl+l开关显示墨奇拆字的拆分。
 
@@ -160,59 +160,3 @@
 - derive/^qx/qw/  # qx就可以打qw
 模糊音同理，也是使用derive把平舌音翘舌音互转、前后鼻音互转，详见issue中的faq
 ```
-
-### 并击相关
-
-- [并击原理](https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%B9%B6%E5%87%BB%E5%8E%9F%E7%90%86)
-
-### todo
-
-```
-
-4字成语的码表优化 补全
-
-简码回显 - doing
-
-墨奇音形自然码下 e简码问题修复
-
-墨奇音形自动上屏版，4码为词，4码+/自动上屏单字，a-z顶词
-
-置顶词、删除词
-
-出简让全的开关、tab提示的开关
-
-字典功能，反查时生僻字显示读音和释义
-
-```
-
-### 鸣谢
-
-雾凇拼音 <https://github.com/iDvel/rime-ice> 参考了其中很多配置
-
-白霜词库 <https://github.com/gaboolic/rime-frost> 本项目使用的词库和词频来自白霜词库
-
-墨奇码码表 <https://github.com/gaboolic/moqima-tables> 墨奇音形的拆分
-
-小鹤双拼+辅助码 <https://gitee.com/functoreality/rime-flypy-zrmfast>
-
-魔然（自然码双拼辅助码）：<https://github.com/ksqsf/rime-moran>
-
-细胞词库&各个发行版配置 <https://github.com/Bambooin/rimerc>
-
-az部件组字模式使用的词典 <https://github.com/mirtlecn/rime-radical-pinyin>
-
-声笔输入法 <https://github.com/sbsrf/sbsrf> 使用了其中的lua脚本，参考了tab上屏简拼功能
-
-星空键道：<https://github.com/xkinput/Rime_JD>
-
-英汉/汉英字典 <https://github.com/lxs602/Chinese-Mandarin-Dictionaries>
-
-墨奇本猫：
-
-<img src="readmeimg/moqi1.jpg" width=30%>
-
-<img src="readmeimg/moqi2.jpg" width=30%>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=gaboolic/rime-shuangpin-fuzhuma&type=Date)](https://star-history.com/#gaboolic/rime-shuangpin-fuzhuma&Date)
