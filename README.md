@@ -216,6 +216,3 @@ az部件组字模式使用的词典 <https://github.com/mirtlecn/rime-radical-pi
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=gaboolic/rime-shuangpin-fuzhuma&type=Date)](https://star-history.com/#gaboolic/rime-shuangpin-fuzhuma&Date)
-
-# uurufa
->>>>>>> 369a64b35298f35ffe089bde992dc3e46c5887d6
