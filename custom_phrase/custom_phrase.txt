@@ -1064,3 +1064,5 @@ SolidWorks	soli	2
 好，辛苦了	hxkl	1
 我方发明	wffm	1
 禹为	yuww	3
+吴振刚	dlrf	3
+-CK	cc	3
